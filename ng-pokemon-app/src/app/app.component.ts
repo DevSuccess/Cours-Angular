@@ -15,7 +15,8 @@ export class AppComponent implements OnInit {
     // this.selectPokemon(this.pokemonList[5]);
   }
 
-  selectPokemon(pokemon: Pokemon){
-    console.log(`Vous avez cliqué sur le pokémon ${pokemon.name}`);
+  selectPokemon(event: MouseEvent){
+    const index: number = +(event.target as HTMLInputElement).value;
+    console.log(`Vous avez cliqué sur le pokémon ${this.pokemonList[index].name}`);
   }
 }
