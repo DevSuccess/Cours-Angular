@@ -10,10 +10,9 @@ export class AppComponent implements OnInit {
   title = "Pokemon List";
   pokemonList: Pokemon[] = POKEMONS;
 
-
   ngOnInit() {
     console.table(this.pokemonList);
-    this.selectPokemon(this.pokemonList[5]);
+    // this.selectPokemon(this.pokemonList[5]);
   }
 
   selectPokemon(pokemon: Pokemon){
