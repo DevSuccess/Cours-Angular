@@ -4,12 +4,7 @@ import { POKEMONS } from "./mock-pokemon-list";
 import { Pokemon } from "./pokemon";
 @Component({
   selector: "app-root",
-  template: `
-    <!--The content below is only a placeholder and can be replaced.-->
-    <div style="text-align:center" class="content">
-      <h1>Welcome to {{ title }}!</h1>
-    </div>
-  `,
+  templateUrl: 'app.component.html',
 })
 export class AppComponent implements OnInit {
   title = "Pokemon List";
