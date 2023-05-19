@@ -10,5 +10,5 @@ import { Component } from "@angular/core";
   `,
 })
 export class AppComponent {
-  title = "ng-pokemon-app";
+  title = 'ng-pokemon-app';
 }
