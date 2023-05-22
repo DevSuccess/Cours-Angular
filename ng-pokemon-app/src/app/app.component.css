@@ -1,0 +1,13 @@
+nav {
+  background-color: #f8f9fa;
+}
+nav .brand-logo {
+  color: #333;
+}
+nav ul li a {
+  color: #333;
+}
+nav ul li.active a {
+  background-color: #007bff;
+  color: #fff;
+}
