@@ -21,6 +21,6 @@ const pokemonRoutes: Routes = [
     PokemonTypeColorPipe,
   ],
   imports: [CommonModule, RouterModule.forChild(pokemonRoutes)],
-  providers: [PokemonService]
+  providers: [PokemonService],
 })
 export class PokemonModule {}
