@@ -11,7 +11,12 @@
     id=""
   />
   <hr />
-  <p>{{ pokemonSelected?.name }}</p>
+  <p *ngIf="pokemonSelected">
+    Vous avez selectionné le pokemon :{{ pokemonSelected?.name }}
+  </p>
+  <p *ngIf="!pokemonSelected">
+    Aucun Pokemon n'a été trouver !
+  </p>
   <hr />
   <p>{{ pokemonList[0].name }}</p>
   <p>{{ pokemonList[1].name }}</p>
